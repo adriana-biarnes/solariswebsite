@@ -1,8 +1,12 @@
 const styles = {
     boxWidth: "xl:max-w-[1280px] w-full",
-  
-    heading2: "font-lato font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
-    paragraph: "font-opensans font-normal text-primary text-[18px] leading-[30.8px]",
+    
+    heading1: "font-lato font-extrabold xs:text-[30px] text-[40px] text-white leading-relaxed w-full",
+    heading2: "font-opensans font-semibold xs:text-[22px] text-[26px] text-white leading-relaxed w-full",
+    buttonText: "font-opensans, font-bold, text-[16px]",
+    paragraph: "font-opensans font-semibold text-primary text-[18px] leading-8",
+    heading3: "font-lato font-black text-[22px] leading-8 text-primary",
+    bodyText: "font-opensans font-medium text-[18px] leading-8 text-primary",
   
     flexCenter: "flex justify-center items-center",
     flexStart: "flex justify-center items-start",
@@ -13,6 +17,7 @@ const styles = {
   
     marginX: "sm:mx-16 mx-6",
     marginY: "sm:my-16 my-6",
+
   };
   
   export const layout = {
