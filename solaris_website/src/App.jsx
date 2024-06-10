@@ -1,5 +1,5 @@
 
-import { Hero, MeetSolaris, Services, CardValues, Form, Footer } from "./components";
+import { Hero, MeetSolaris, Services, CardSection, Form, Footer } from "./components";
 import styles from "./styles";
 
 const App = () => (
@@ -14,7 +14,7 @@ const App = () => (
       <div className={`${styles.boxWidth} mt-24`}>
         <MeetSolaris />
         <Services />
-        <CardValues />
+        <CardSection />
         <Form />
         <Footer />
       </div>

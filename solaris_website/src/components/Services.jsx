@@ -1,8 +1,6 @@
 import { services } from "../constants";
 import styles from "../styles";
 
-console.log("aqui", services);
-
 const Services = () => {
   return (
     <div className="bg-bgGray rounded-3xl mt-16">

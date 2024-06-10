@@ -43,14 +43,14 @@ export const cards = [
   },
   {
     id: "card-2",
-    content: "We are committed to creating successful partnerships with our clients, over and above our contractual agreements. Our goal is to share in our client’s strategic objectives and build lasting relationships with their teams.",
     title: "Partnership",
+    content: "We are committed to creating successful partnerships with our clients, over and above our contractual agreements. Our goal is to share in our client’s strategic objectives and build lasting relationships with their teams.",
     img: partnership,
   },
   {
     id: "card-3",
-    content: "We’re proud of our track record, our clients trust us to deliver their most important programmes successfully on time and on budget.  We consistently exceed expectations through our commitment and in-depth knowledge.",
     title: "Trust",
+    content: "We’re proud of our track record, our clients trust us to deliver their most important programmes successfully on time and on budget.  We consistently exceed expectations through our commitment and in-depth knowledge.",
     img: trust,
   },
 ];

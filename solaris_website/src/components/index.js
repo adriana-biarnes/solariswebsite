@@ -1,7 +1,7 @@
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import MeetSolaris from "./MeetSolaris";
-import CardValues from "./CardValues";
+import CardSection from "./CardSection";
 import Card from "./Card";
 import Services from "./Services"
 import Form from "./Form";
@@ -11,7 +11,7 @@ export {
     Navbar,
     Hero,
     MeetSolaris,
-    CardValues,
+    CardSection,
     Card,
     Services,
     Form,
