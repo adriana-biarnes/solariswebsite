@@ -13,6 +13,9 @@ module.exports = {
         hoverPrimary: "#405FB5",
         hoverSecondary: "#FF9933"
       },
+      backgroundImage:{
+        'footer-formTree':"url('./src/assets/formTreeV2.jpg')",
+      },
       fontFamily: {
         lato: ["Lato", "sans-serif"],
         opensans: ["Open Sans", "sans-serif"],
