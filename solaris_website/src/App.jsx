@@ -7,7 +7,7 @@ import {
   Form,
 } from "./components";
 import styles from "./styles";
-import formTree from "../src/assets/formTree.jpg";
+
 const App = () => (
   <div className="bg-white w-full overflow-hidden">
     <div className={`bg-white ${styles.flexStart}`}>
@@ -24,17 +24,17 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`bg-white ${styles.paddingX} ${styles.flexStart} bg-footer-formTree`}>
-    <div className={`${styles.wrapper} mt-24 `}>
-    <div className="grid md:grid grid-cols-2  justify-start">
-    <Form />
+    <div
+      className={`bg-white md:flex md:justify-center md:items-start sm:px-16 px-6 bg-footer-formTree`}
+    >
+      <div className={`${styles.wrapper} mt-24 `}>
+        <div className="flex flex-col md:grid grid-cols-2  justify-start">
+          <Form />
+        </div>
 
-    </div>
-
-    <Footer />
+        <Footer />
       </div>
     </div>
-
   </div>
 );
 
