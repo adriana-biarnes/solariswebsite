@@ -1,5 +1,5 @@
 import expertise from "./expertise.jpg";
-import partnership from "./partnership.jpeg";
+import partnership from "./partnership.jpg";
 import trust from "./trust.jpg";
 import iconPlatform1 from "./iconPlatform1.svg";
 import iconOptimisation2 from "./iconOptimisation2.svg";

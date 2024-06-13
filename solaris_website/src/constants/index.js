@@ -38,7 +38,7 @@ export const cards = [
   {
     id: "card-1",
     title: "Expertise",
-    content: "We choose our people based on their experience – you can expect that Solaris consultants will always have demonstrable, direct, relevant, and up-to-date professional experience in their fields of expertise.",
+    content: "We carefully choose our people based on their  experience – you can always expect that Solaris consultants will have demonstrable, direct, highly relevant, and up-to-date professional experience in their specific fields of expertise.",
     img: expertise,
   },
   {

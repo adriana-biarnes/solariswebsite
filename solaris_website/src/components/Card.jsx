@@ -1,23 +1,24 @@
 import { cards } from "../constants";
-
+import styles from "../styles";
+ 
 console.log("aqui", cards);
 
-const Card = () => {
-  console.log(cards.img, 'img');
-  console.log(cards.title, 'img');
-  console.log(cards.content, 'img');
+const Card = ({ img, title, content}) => {
+  console.log(img, 'img');
+  console.log(title, 'title');
+  console.log(content, 'content');
 
   return (
-    <div className="max-w-md mx-auto bg-purple-600 p-3 rounded-xl shadow-md overflow-hidden">
-      <div className="bg-blue-400 w-[380px]">
+    <div className="max-w-md mx-auto p-3 rounded-xl overflow-hidden">
+      <div className="w-auto">
         <img
-          //className="h-64 w-full object-cover"
-          src={cards.img}
-          alt={cards.title}
+          className="w-[380px] h-[380px] rounded-xl sepia-0"
+          src={img}
+          alt={title}
         />
-        <div className="p-4 bg-yellow-200">
-          <h2 className="text-2xl font-bold text-primary">{cards.title}</h2>
-          <p className="mt-2 text-primary">{cards.content}</p>
+        <div className="py-4">
+          <h2 className={`${styles.heading3} mt-2 text-primary`}>{title}</h2>
+          <p className={`${styles.cardText} mt-2 text-primary`}>{content}</p>
         </div>
       </div>
     </div>

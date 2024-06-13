@@ -2,7 +2,7 @@ import styles from "../styles";
 
 const MeetSolaris = () => {
   return (
-    <div>
+    <div id="meet">
       <h3 className={styles.heading3}>Meet Solaris</h3>
       <div className={`${styles.bodyText} mt-10`}>
         <p>We founded Solaris in 2014 to offer a different type of consultancy service – matching highly experienced, specialist consultants to the industry’s most complex and strategic programmes.</p>

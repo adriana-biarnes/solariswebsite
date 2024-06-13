@@ -15,9 +15,10 @@ const App = () => (
         <MeetSolaris />
         <Services />
         <CardSection />
-        <Form />
-        <Footer />
       </div>
+    </div>
+    <div className={`${styles.boxWidth} mt-24`}>
+      <Form />
     </div>
   </div>
 );
