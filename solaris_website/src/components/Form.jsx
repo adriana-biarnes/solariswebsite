@@ -1,15 +1,9 @@
-import formTree from "../assets/formTree.jpg";
 import Footer from "./Footer";
 
 const Form = () => {
   return (
-    <div id="contact" className="relative h-screen pb-8">
-      <div
-        className="absolute inset-0 bg-cover bg-center opacity-50"
-        style={{ backgroundImage: `url(${formTree})` }}
-      />
-      <div className="relative z-10 flex items-center justify-center sm:justify-start w-full h-auto">
-        <form className="relative z-10 w-full max-w-md sm:max-w-xl sm:w-[616px] px-8 pt-40 sm:pl-[120px] sm:pr-0">
+
+        <form className=" relative z-10 max-w-md sm:max-w-xl sm:w-[616px]  pt-40 sm:pr-0 xl:max-w-[1280px]">
           <div className="space-y-12">
             <div className="border-b border-primary/10 pb-12">
               <h3 className="font-lato font-black text-[22px] leading-8 text-primary pb-10">
@@ -89,9 +83,8 @@ const Form = () => {
             </div>
           </div>
         </form>
-      </div>
-      <Footer />
-    </div>
+    
+
   );
 };
 

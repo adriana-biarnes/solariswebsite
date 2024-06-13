@@ -6,7 +6,7 @@ import Card from "./Card";
 import Services from "./Services"
 import Form from "./Form";
 import Footer from "./Footer";
-
+import NewForm from "./NewForm";
 export {
     Navbar,
     Hero,
@@ -15,5 +15,6 @@ export {
     Card,
     Services,
     Form,
-    Footer
+    Footer,
+    NewForm
 };
