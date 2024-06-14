@@ -5,6 +5,14 @@ import Navbar from "./Navbar";
 import styles from "../styles";
 
 const Hero = () => {
+
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="relative h-screen">
       
@@ -39,10 +47,16 @@ const Hero = () => {
               change
             </h2>
             <div className="w-[230px] inline-grid gap-2 p-8">
-              <button className="w-[230px] h-[48px] bg-secondary hover:bg-hoverSecondary rounded-xl">
-                <p className={`${styles.buttonText} drop-shadow-xl`}>Meet Solaris</p>
+              <button 
+                className="w-[230px] h-[48px] bg-secondary hover:bg-hoverSecondary rounded-xl"
+                onClick={() => scrollToSection('meet')}
+              >
+                  <p className={`${styles.buttonText} drop-shadow-xl`}>Meet Solaris</p>
               </button>
-              <button className="w-[230px] h-[48px] bg-primary hover:bg-hoverPrimary rounded-xl">
+              <button 
+                className="w-[230px] h-[48px] bg-primary hover:bg-hoverPrimary rounded-xl"
+                onClick={() => scrollToSection('contact')}
+              >
                 <p className={`${styles.buttonText} drop-shadow-xl`}>Contact us</p>
               </button>
             </div>

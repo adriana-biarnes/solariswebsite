@@ -1,9 +1,6 @@
-import Footer from "./Footer";
-
 const Form = () => {
   return (
-
-        <form className=" relative z-10 max-w-md sm:max-w-xl sm:w-[616px]  pt-40 sm:pr-0 xl:max-w-[1280px]">
+        <form id="contact" className="relative z-10 max-w-md sm:max-w-xl sm:w-[616px]  pt-40 sm:pr-0 xl:max-w-[1280px]">
           <div className="space-y-12">
             <div className="border-b border-primary/10 pb-12">
               <h3 className="font-lato font-black text-[22px] leading-8 text-primary pb-10">

@@ -28,10 +28,9 @@ const App = () => (
       className={`bg-white md:flex md:justify-center md:items-start sm:px-16 px-6 bg-footer-formTree`}
     >
       <div className={`${styles.wrapper} mt-24 `}>
-        <div className="flex flex-col md:grid grid-cols-2  justify-start">
+        <div className="flex flex-col md:grid grid-cols-2 justify-start">
           <Form />
         </div>
-
         <Footer />
       </div>
     </div>
