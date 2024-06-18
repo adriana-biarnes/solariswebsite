@@ -9,7 +9,7 @@ const Card = ({ img, title, content}) => {
   console.log(content, 'content');
 
   return (
-    <div className="max-w-md mx-auto p-3 rounded-xl overflow-hidden">
+    <div className="max-w-md mx-auto rounded-xl overflow-hidden">
       <div className="w-auto">
         <img
           className="w-[380px] h-[380px] rounded-xl sepia-0"
