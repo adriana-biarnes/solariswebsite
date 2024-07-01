@@ -2,9 +2,9 @@ const styles = {
   boxWidth: "w-full",
   wrapper: "xl:max-w-[1280px]",
   heading1:
-    "font-lato font-extrabold  text-[35px] text-white w-full max text-wrap",
+    "font-lato font-extrabold leading-tight text-[40px] text-white w-full max text-wrap",
   heading2:
-    "font-opensans font-semibold xs:text-[22px] text-[26px] text-white w-full",
+    "font-opensans font-semibold leading-tight text-[26px] text-white w-full",
   buttonText: "font-opensans font-bold text-[16px]",
   paragraph: "font-opensans font-semibold text-primary text-[18px] leading-8",
   heading3: "font-lato font-black text-[22px] leading-8 text-primary",

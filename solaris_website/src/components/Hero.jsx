@@ -37,11 +37,11 @@ const Hero = () => {
         {/* Rectángulo semitransparente solo en desktop */}
        
         <div className="lg:flex lg:bg-black lg:bg-opacity-50 absolute  left-0 w-1/2 h-height lg:h-full items-center justify-center">
-          <div className="w-[400px]">
+          <div className="w-[460px]">
             <img src={logoSolaris} alt="Solaris" className=" pl-8 pt-8 md:w-[296px] md:h-[190px]" />
-            <h1 className={`${styles.heading1} pl-8 pr-8 my-8`}>
+              <h1 className={`${styles.heading1} pl-8 my-8`}>
               On your way to success with consultants you can trust
-            </h1>
+              </h1>
             <h2 className={`${styles.heading2} pl-8 pr-8`}>
               We work with Asset Managers to successfully deliver strategic
               change
