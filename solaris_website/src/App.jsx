@@ -32,7 +32,7 @@ const App = () => {
       // className={`md:flex md:justify-center md:items-start sm:px-16 px-6 sm:bg-footer-formTree bg-white bg-none`}
       style={isSmallScreen ? {} : { backgroundImage: `url(${formTreeV2})` }}
     >
-      <div className={`${styles.wrapper} mt-24 `}>
+      <div className={`${styles.wrapper} mt-20 `}>
         <div className="flex flex-col md:grid grid-cols-2 justify-start">
           <Form />
         </div>

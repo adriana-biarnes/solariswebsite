@@ -27,7 +27,7 @@ const Form = () => {
         ref={form}
         onSubmit={sendEmail}
         id="contact"
-        className="relative z-10 max-w-md sm:max-w-xl sm:w-[616px] sm:pr-0 xl:max-w-[1280px]"
+        className="relative z-10 max-w-md sm:max-w-xl sm:w-[616px] pt-10 sm:pr-0 xl:max-w-[1280px]"
       >
         <div className="space-y-12">
           <div className="pb-12">
