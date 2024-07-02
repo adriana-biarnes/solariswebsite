@@ -6,14 +6,14 @@ const Footer = () => {
         <a 
           href={privacypolicy}
           target="_blank" 
-          className="font-opensans font-bold text-[12px] leading-8 underline"
+          className="font-opensans font-bold text-[0.75rem] leading-8 underline"
         >
           Privacy Policy
         </a>
-        <p className="font-opensans font-regular text-[10px] leading-4">
+        <p className="font-opensans font-regular text-[0.6rem] leading-4">
           @2024 Solaris Consultants
         </p>
-        <p className="font-opensans font-regular text-[10px] leading-4">
+        <p className="font-opensans font-regular text-[0.6rem] leading-4">
           All rights reserved
         </p>
       </div>

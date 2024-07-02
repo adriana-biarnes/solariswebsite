@@ -4,7 +4,7 @@ import styles from "../styles";
 const Services = () => {
   return (
     <div className="bg-bgGray rounded-3xl mt-16">
-      <div className="py-8 px-12">
+      <div className="py-8 px-6">
         <h3 className={`${styles.heading3} text-secondary pb-10`}>Our services</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {services.map((service) => (

@@ -19,12 +19,12 @@ const Hero = () => {
         style={{ backgroundImage: `url(${mobileBackgroundImage})` }}
       />
       <div
-        className=" hidden absolute inset-0 bg-cover bg-center lg:block"
+        className=" hidden absolute inset-0 bg-cover bg-center lg:block sepia-0"
         style={{ backgroundImage: `url(${desktopBackgroundImage})` }}
       />
 
       {/* Content Hero */}
-      <div className="relative z-10 bg-black  bg-opacity-50 md:bg-inherit  flex items-center justify-center h-screen text-white">
+      <div className="relative z-10 bg-black  bg-opacity-50 md:bg-inherit  flex items-center justify-center h-screen text-white sepia-0">
         <div className={`${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
             <Navbar />
@@ -33,7 +33,7 @@ const Hero = () => {
 
         {/* Rectángulo semitransparente solo en desktop */}
 
-        <div className="lg:flex lg:bg-black lg:bg-opacity-50 absolute  left-0 w-1/2 h-height lg:h-full items-center justify-center">
+        <div className="lg:flex lg:bg-black lg:bg-opacity-50 absolute  left-0 w-1/2 h-height lg:h-full items-center justify-center sepia-0">
           <div className="w-[460px]">
             <img
               src={logoSolaris}
