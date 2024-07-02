@@ -30,14 +30,14 @@ const Form = () => {
         className="relative z-10 max-w-md sm:max-w-xl sm:w-[616px]  pt-40 sm:pr-0 xl:max-w-[1280px]"
       >
         <div className="space-y-12">
-          <div className="border-b border-primary/10 pb-12">
+          <div className="pb-12">
             <h3 className="font-lato font-black text-[22px] leading-8 text-primary pb-10">
               Contact us
             </h3>
             <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8">
               <div>
                 <label
-                  htmlFor="firstName"
+                  htmlFor="username"
                   className="block text-sm font-medium leading-6 text-primary"
                 >
                   Name
@@ -54,10 +54,10 @@ const Form = () => {
                 </div>
               </div>
 
-              {/* Last name */}
+              {/* Email */}
               <div>
                 <label
-                  htmlFor="lastName"
+                  htmlFor="email"
                   className="block text-sm font-medium leading-6 text-primary"
                 >
                   Email address
