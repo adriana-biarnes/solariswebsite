@@ -28,17 +28,20 @@ const App = () => {
     </div>
 
     <div
-      className={`md:flex md:justify-center sm:h-screen md:items-center sm:px-16 px-6 bg-cover bg-center`}
-      // className={`md:flex md:justify-center md:items-start sm:px-16 px-6 sm:bg-footer-formTree bg-white bg-none`}
-      style={isSmallScreen ? {} : { backgroundImage: `url(${formTreeV2})` }}
-    >
-      <div className={`${styles.wrapper} mt-24 relative`}>
-        <div className="flex flex-col md:grid grid-cols-2 justify-start">
-          <Form />
-        </div>
-        <Footer />
-      </div>
+  className={`md:flex md:justify-center sm:h-[1000px] md:items-start sm:px-16 px-6 bg-cover bg-center`}
+  style={{
+    ...(!isSmallScreen && { backgroundImage: `url(${formTreeV2})` }),
+    marginBottom: '0', // This removes the bottom margin
+  }}
+>
+  <div className={`${styles.wrapper} mt-20`}>
+    <div className="flex flex-col md:grid grid-cols-2 justify-start">
+      <Form />
     </div>
+    <Footer />
+  </div>
+</div>
+
   </div>
 )};
 
