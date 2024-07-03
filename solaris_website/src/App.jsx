@@ -28,7 +28,7 @@ const App = () => {
     </div>
 
     <div
-      className={`md:flex md:justify-center sm:h-[1000px] md:items-center sm:px-16 px-6 bg-cover bg-center`}
+      className={`md:flex md:justify-center sm:h-screen md:items-center sm:px-16 px-6 bg-cover bg-center`}
       // className={`md:flex md:justify-center md:items-start sm:px-16 px-6 sm:bg-footer-formTree bg-white bg-none`}
       style={isSmallScreen ? {} : { backgroundImage: `url(${formTreeV2})` }}
     >
