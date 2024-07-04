@@ -28,7 +28,7 @@ const App = () => {
     </div>
 
     <div
-  className={`md:flex md:justify-center sm:h-[1000px] md:items-start sm:px-16 px-6 bg-cover bg-center`}
+  className={`md:flex md:justify-center sm:h-[100vh] md:items-start sm:px-16 px-6 bg-cover bg-center`}
   style={{
     ...(!isSmallScreen && { backgroundImage: `url(${formTreeV2})` }),
     marginBottom: '0', // This removes the bottom margin
