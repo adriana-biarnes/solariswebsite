@@ -2,15 +2,15 @@ const styles = {
   boxWidth: "w-full",
   wrapper: "xl:max-w-[1280px]",
   heading1:
-    "font-lato font-extrabold leading-tight md:text-[40px] text-[30px] text-white w-full max text-wrap",
+    "font-lato font-extrabold leading-tight md:text-[2.5rem] text-[1.875rem] text-white w-full max text-wrap",
   heading2:
-    "font-opensans font-semibold leading-tight md:text-[26px] text-[22px] text-white w-full",
-  buttonText: "font-opensans font-bold text-[16px]",
-  paragraph: "font-opensans font-semibold text-primary text-[18px] leading-8",
-  heading3: "font-lato font-black text-[22px] leading-8 text-primary",
-  bodyText: "font-opensans font-medium text-[18px] leading-8 text-primary",
-  listText: "font-opensans font-regular text-[18px] text-primary",
-  cardText: "font-opensans font-semibold text-[16px] leading-7",
+    "font-opensans font-semibold leading-tight md:text-[1.625rem] text-[1.375rem] text-white w-full",
+  buttonText: "font-opensans font-bold text-[1rem]",
+  paragraph: "font-opensans font-semibold text-primary text-[1.125rem] leading-8",
+  heading3: "font-lato font-black text-[1.375rem] leading-8 text-primary",
+  bodyText: "font-opensans font-medium text-[1.125rem] leading-8 text-primary",
+  listText: "font-opensans font-regular text-[1.125rem] text-primary",
+  cardText: "font-opensans font-semibold text-[1rem] leading-7",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
