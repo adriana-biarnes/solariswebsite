@@ -12,7 +12,7 @@ import formTreeV2 from "./assets/formTreeV2.jpg"
 const App = () => {
   const isSmallScreen = window.innerWidth < 768;
   return (
-  <div className="bg-white w-full overflow-hidden">
+  <div className="bg-white w-full overflow-hidden min-w-[355px]">
     <div className={`bg-white ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
@@ -34,7 +34,7 @@ const App = () => {
     marginBottom: '0', // This removes the bottom margin
   }}
 >
-  <div className={`${styles.wrapper} mt-20`}>
+  <div className={`${styles.wrapper} mt-2`}>
     <div className="flex flex-col md:grid grid-cols-2 justify-start">
       <Form />
     </div>
