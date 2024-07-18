@@ -1,8 +1,8 @@
 import privacypolicy from '../assets/privacypolicy.pdf'
 const Footer = () => {
   return (
-    <footer className="bottom-0 left-0 w-full h-30 flex items-center justify-center py-6 mt-4">
-      <div className="text-center text-white lg:text-primary">
+    <footer className="bottom-0 left-0 w-full h-30 flex items-center justify-center py-6 bg-primary">
+      <div className="text-center text-white">
         <a 
           href={privacypolicy}
           target="_blank" 
