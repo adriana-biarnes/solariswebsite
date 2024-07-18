@@ -27,21 +27,21 @@ const App = () => {
       </div>
     </div>
 
+    {/* TODO: Move this logic within the Footer and refactor it to remove the duplicated divs */}
     <div
-  className={`md:flex md:justify-center sm:h-[1000px] md:items-start sm:px-16 px-6 bg-cover bg-center`}
-  style={{
-    ...(!isSmallScreen && { backgroundImage: `url(${formTreeV2})` }),
-    marginBottom: '0', // This removes the bottom margin
-  }}
->
-  <div className={`${styles.wrapper} mt-2`}>
-    <div className="flex flex-col md:grid grid-cols-2 justify-start">
-      <Form />
+      className={`md:flex md:justify-center sm:h-[1000px] md:items-start sm:px-16 px-6 bg-cover bg-center`}
+      style={{
+        ...(!isSmallScreen && { backgroundImage: `url(${formTreeV2})` }),
+        marginBottom: '0', // This removes the bottom margin
+      }}
+    >
+      <div className={`${styles.wrapper} mt-2`}>
+        <div className="flex flex-col md:grid grid-cols-2 justify-start">
+          <Form />
+        </div>
+      </div> 
     </div>
     <Footer />
-  </div>
-</div>
-
   </div>
 )};
 
