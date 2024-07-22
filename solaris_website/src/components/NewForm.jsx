@@ -14,7 +14,7 @@ const NewForm = () => {
     type="text"
     name="name"
     id="name"
-    className="rounded-lg border-blue-900 h-10 border-2"
+    className="rounded-lg border-blue-900 h-10 border-4"
   />
 
   <label htmlFor="lastname">Last Name</label>
@@ -22,14 +22,14 @@ const NewForm = () => {
     type="text"
     name="lastname"
     id="lastname"
-    className="rounded-lg border-blue-900 h-10 border-2"
+    className="rounded-lg border-blue-900 h-10 border-4"
   />
   <label htmlFor="email">Last Name</label>
   <input
     type="email"
     name="email"
     id="email"
-    className="rounded-lg border-blue-900 h-10 border-2"
+    className="rounded-lg border-blue-900 h-10 border-4"
   />
 
   <label htmlFor="message">Last Name</label>
