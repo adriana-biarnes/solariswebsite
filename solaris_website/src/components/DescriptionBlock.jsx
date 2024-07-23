@@ -1,12 +1,12 @@
 /* eslint-disable react/prop-types */
 const DESCRIPTION_BLOCKS = [
     {
-        image: "Platform.png",
+        image: "platform2x.png",
         title: "Investment platform implementation",
         description: "Our team has worked with more than 10 clients to deliver successful investment platform implementations. Our consultants have experience working with all of the major platforms, including Aladdin, Charles River, SimCorp and Bloomberg.",
     },
     {
-        image: "Optimization.png",
+        image: "Optimisation.png",
         title: "Aladdin implementation and optimization",
         description: "We believe we are the leading Aladdin consulting team in the UK, having successfully led some of the largest and most complex implementations. Our specialist team can help you get the most out of the toolset, including new modules such as ADC and Aladdin Accounting.",
     },
@@ -45,19 +45,19 @@ const DESCRIPTION_BLOCKS = [
 
 const Block = ({ image, title, description }) => {
     return (
-        <div className="flex">
-            <div className="flex flex-col">
-                <img src={image} alt={title} />
-                <h2>{title}</h2>
+        <div className="flex flex-row items-center justify-between py-10 gap-6 h-60">
+            <div className="flex flex-col w-1/3 items-center gap-6">
+                <img className="w-24 p-0.1" src={image} alt={title} />
+                <h2 className="text-center font-bold text-lg">{title}</h2>
             </div>
-            <p>{description}</p>
+            <p className="w-2/3 text-lg">{description}</p>
         </div>
     );
 };
 
 const DescriptionBlocks = () => {
     return(
-        <div className="flex flex-col">
+        <div className="flex flex-col gap-16 mt-10">
            {DESCRIPTION_BLOCKS.map((block) => <Block key={block.image} image={block.image} title={block.title} description={block.description} />)}
         </div>
     )
