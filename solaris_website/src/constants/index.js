@@ -6,13 +6,13 @@ export const navLinks = [
     title: "Meet Solaris",
   },
   {
-    id: "contact",
-    title: "Contact us",
-  },
-  // {
-  //   id: "approach",
-  //   title: "Our approach",
-  // },
+     id: "whatWeDo",
+     title: "What we do",
+ },
+ /* {
+  id: "contact",
+  title: "Contact us",
+}, */
   // {
   //   id: "work",
   //   title: "How we work",
