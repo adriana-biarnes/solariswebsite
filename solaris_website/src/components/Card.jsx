@@ -1,13 +1,10 @@
+/* eslint-disable react/prop-types */
 import { cards } from "../constants";
 import styles from "../styles";
  
 console.log("aqui", cards);
 
 const Card = ({ img, title, content}) => {
-  console.log(img, 'img');
-  console.log(title, 'title');
-  console.log(content, 'content');
-
   return (
     <div className="max-w-md mx-auto rounded-xl overflow-hidden">
       <div className="sm:w-[380px] w-[328px]">

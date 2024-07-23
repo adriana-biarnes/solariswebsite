@@ -13,7 +13,6 @@ const WhatWeDo = () => {
                 <div className="flex items-center text-white space-x-6">
                     <Link to="/">Meet Solaris</Link>
                     <Link to="/whatWeDo">What we do</Link>
-                    <Link to="/whatWeDo">What we do</Link>
                     <Link to="/whatWeDo">Our people</Link>
                     <Link to="/whatWeDo">Case Studies</Link>
                     <Link to="/whatWeDo">Contact us</Link>
@@ -22,7 +21,7 @@ const WhatWeDo = () => {
             <div className="flex w-full">
                 {/* Half width image */}
                 <img className="flex min-h-[2760px] min-w-[681px]" src={whatWeDoImage}/>
-                <div className="flex flex-col w-1/2 p-20">
+                <div className="flex flex-col w-1/2 p-20 text-primary">
                     <div className="flex flex-col gap-10 ">
                         <h1 className="font-bold text-2xl">What we do</h1>
                         <p className="text-justify text-lg">Solaris is a specialist consulting firm focused on the investments industry. We support our clients with technology, data and operating model transformation across the lifecycle of a programme, from strategy, selection, design, implementation to embedding in BAU.</p>
