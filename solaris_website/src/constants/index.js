@@ -9,18 +9,18 @@ export const navLinks = [
      id: "whatWeDo",
      title: "What we do",
  },
- /* {
-  id: "contact",
-  title: "Contact us",
-}, */
-  // {
-  //   id: "work",
-  //   title: "How we work",
-  // },
-  // {
-  //   id: "people",
-  //   title: "Our people",
-  // },
+  {
+    id: "whatWeDo",
+    title: "How we work",
+  },
+  {
+    id: "whatWeDo",
+    title: "Our people",
+  },
+  {
+    id: "whatWeDo",
+    title: "Contact us",
+  }, 
 ];
 
 export const landing = [

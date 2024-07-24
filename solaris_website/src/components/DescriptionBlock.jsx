@@ -45,19 +45,19 @@ const DESCRIPTION_BLOCKS = [
 
 const Block = ({ image, title, description }) => {
     return (
-        <div className="flex flex-row items-center justify-between py-10 gap-6 h-60">
+        <div className="flex flex-col lg:flex-row items-center justify-between lg:py-10 lg:gap-6 lg:h-60">
             <div className="flex flex-col w-1/3 items-center gap-6">
                 <img className="w-24 p-0.1" src={image} alt={title} />
                 <h2 className="text-center font-bold text-lg">{title}</h2>
             </div>
-            <p className="w-2/3 text-lg">{description}</p>
+            <p className="lg:w-2/3 w-full text-lg">{description}</p>
         </div>
     );
 };
 
 const DescriptionBlocks = () => {
     return(
-        <div className="flex flex-col gap-16 mt-10">
+        <div className="flex flex-col gap-16 my-10">
            {DESCRIPTION_BLOCKS.map((block) => <Block key={block.image} image={block.image} title={block.title} description={block.description} />)}
         </div>
     )
