@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { navLinks } from "../constants";
 import { Link } from "react-router-dom";
-import WhiteBurger from "../../public/burger-white.png"
+import WhiteBurger from "/burger-white.png"
 
 
 const Navbar = () => {
