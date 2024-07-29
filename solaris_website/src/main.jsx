@@ -6,22 +6,27 @@ import {
   createBrowserRouter ,
   RouterProvider,
 } from "react-router-dom";
-import {WhatWeDo} from './pages';
+import {CaseStudies, OurPeople, WhatWeDo} from './pages';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
   },
-
   {
     path: "/whatWeDo",
     element: <WhatWeDo/>
+  },
+  {
+    path: "/caseStudies",
+    element: <CaseStudies/>
+  },
+  {
+    path: "/OurPeople",
+    element:<OurPeople/>
   }
 
 ])
-
-
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
