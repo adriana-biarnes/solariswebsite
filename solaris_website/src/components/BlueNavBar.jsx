@@ -19,7 +19,7 @@ const BlueNavBar = () => {
                 <div className="lg:items-center text-white lg:visible lg:space-x-6 invisible hidden lg:block">
                     <Link to="/">Meet Solaris</Link>
                     <Link to="/whatWeDo">What we do</Link>
-                    <Link to="/whatWeDo">Our people</Link>
+                    <Link to="/OurPeople">Our people</Link>
                     <Link to="/caseStudies">Case Studies</Link>
                     <Link to="/whatWeDo">Contact us</Link>
                 </div>
@@ -34,7 +34,7 @@ const BlueNavBar = () => {
                 <div className="flex flex-col items-center bg-white w-full lg:hidden py-2 text-primary gap-3">
                     <Link to="/">Meet Solaris</Link>
                     <Link to="/whatWeDo">What we do</Link>
-                    <Link to="/whatWeDo">Our people</Link>
+                    <Link to="/OurPeople">Our people</Link>
                     <Link to="/caseStudies">Case Studies</Link>
                     <Link to="/whatWeDo">Contact us</Link>
                 </div>
