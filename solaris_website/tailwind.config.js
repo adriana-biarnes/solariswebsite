@@ -1,4 +1,17 @@
-// eslint-disable-next-line no-undef
+/* eslint-disable no-undef */
+const plugin = require("tailwindcss/plugin");
+
+const MyPlugin = plugin(({ addUtilities }) => {
+  addUtilities({
+    ".rotate-y-180": { transform: "rotateY(180deg)" },
+    ".preserve-3d": { transformStyle: "preserve-3d" },
+    ".perspective": { perspective: "1000px" },
+    ".backface-hidden": { backfaceVisibility: "hidden" },
+    ".backface-visible": { backfaceVisibility: "visible" },
+  });
+});
+
+
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   mode: "jit",
@@ -14,8 +27,8 @@ module.exports = {
       },
       backgroundImage:{
         'footer-formTree':"url('./src/assets/formTreeV2.jpg')",
-        bento: 'linear-gradient(180deg, rgba(245, 122, 0, 0.09) 0%, rgba(245, 122, 0, 0.3) 100%)',
-        mobileBento: 'linear-gradient(180deg, rgba(245, 122, 0, 0.08) 8%, rgba(249, 171, 93, 0.096) 9.6%, rgba(255, 255, 255, 0.8) 80%)',
+        bento: 'linear-gradient(90deg, rgba(245, 122, 0, 0.09) 0%, rgba(245, 122, 0, 0.3) 100%)',
+        mobileBento: 'linear-gradient(108deg, rgba(245, 122, 0, 0.08) 7.84%, rgba(249, 171, 93, 0.10) 53.77%, rgba(255, 255, 255, 0.80) 97.89%)',
       },
       fontFamily: {
         lato: ["Lato", "sans-serif"],
@@ -32,5 +45,5 @@ module.exports = {
       xl: "1700px",
     },
   },
-  plugins: [],
+  plugins: [MyPlugin],
 };

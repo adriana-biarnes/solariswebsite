@@ -2,17 +2,9 @@ import { expertise, partnership, trust, iconPlatform1, iconOptimisation2, iconSt
 
 export const navLinks = [
   {
-    id: "meet",
-    title: "Meet Solaris",
-  },
-  {
      id: "whatWeDo",
      title: "What we do",
  },
-  {
-    id: "whatWeDo",
-    title: "How we work",
-  },
   {
     id: "OurPeople",
     title: "Our People",

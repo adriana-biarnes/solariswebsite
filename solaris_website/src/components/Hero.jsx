@@ -3,15 +3,11 @@ import mobileBackgroundImage from "../assets/mobileLanding.jpg";
 import logoSolaris from "../assets/logoSolaris.svg";
 import Navbar from "./Navbar";
 import styles from "../styles";
+import { scrollToSection } from "../constants/utils";
+
+
 
 const Hero = () => {
-  const scrollToSection = (id) => {
-    const section = document.getElementById(id);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <div className="relative h-screen ">
       <div
@@ -33,11 +29,11 @@ const Hero = () => {
         {/* Rectángulo semitransparente solo en desktop */}
 
         <div className="flex flex-col bg-black bg-opacity-40 absolute left-0 xxs:w-full md:w-3/5 lg:w-5/12 h-full justify-center gap-8 px-6">
-          <div className="flex flex-col gap-8 xs:w-[460px] w-[335px] justify-center">
+          <div className="flex flex-col gap-8 md:w-[460px] w-[335px] justify-center">
             <img
               src={logoSolaris}
               alt="Solaris"
-              className="xs:pr-20 pr-48 w-[335px] h-[100px] xs:w-[362.25px] xs:h-[189px] sepia-0"
+              className="pr-48 w-[335px] h-[100px] xs:w-[362.25px] xs:h-[189px] sepia-0 ml-6 xxs:ml-0 xs:ml-6 "
             />
               <h1 className={`${styles.heading1} xs:pl-8`}>
                 On your way to success with consultants you can trust
@@ -48,7 +44,7 @@ const Hero = () => {
               </h2>
             
           </div>
-          <div className="flex flex-col xs:w-[460px] w-[300px] gap-2 xs:pl-8 ">
+          <div className="flex flex-col xxs:ml-0 xs:w-[460px] w-[300px] gap-2 ml-8 md:ml-16 xs:ml-8 ">
               <button
                 className="xs:w-[230px] h-[48px] w-[168px] bg-secondary hover:bg-hoverSecondary rounded-xl"
                 onClick={() => scrollToSection("meet")}
@@ -59,7 +55,7 @@ const Hero = () => {
               </button>
               <button
                 className="xs:w-[230px] h-[48px] w-[168px] bg-primary hover:bg-hoverPrimary rounded-xl"
-                onClick={() => scrollToSection("contact")}
+                onClick={() => scrollToSection("contactUs")}
               >
                 <p className={`${styles.buttonText} drop-shadow-xl`}>
                   Contact us
