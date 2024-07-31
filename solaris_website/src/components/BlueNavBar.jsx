@@ -16,12 +16,12 @@ const BlueNavBar = () => {
             <div className="flex flex-row lg:bg-primary w-full h-28 justify-between items-center px-20">
                 <img src={LogoBlue} className="h-[70px] lg:hidden block" alt="LogoBlue"/>
                 <img src={Logo} className="h-[70px] hidden lg:block" alt="Logo"/>
-                <div className="lg:items-center text-white lg:visible lg:space-x-6 invisible hidden lg:block">
+                <div className="lg:items-center text-white space-x-[32px] lg:visible lg:gap-8 invisible hidden lg:block">
                     <Link to="/">Meet Solaris</Link>
                     <Link to="/whatWeDo">What we do</Link>
                     <Link to="/OurPeople">Our people</Link>
                     <Link to="/caseStudies">Case Studies</Link>
-                    <Link to="/whatWeDo">Contact us</Link>
+                    <Link to="/#contactUs">Contact us</Link>
                 </div>
                 <img 
                     src={BlueBurger} 
@@ -36,7 +36,7 @@ const BlueNavBar = () => {
                     <Link to="/whatWeDo">What we do</Link>
                     <Link to="/OurPeople">Our people</Link>
                     <Link to="/caseStudies">Case Studies</Link>
-                    <Link to="/whatWeDo">Contact us</Link>
+                    <Link to="/#contactUs">Contact us</Link>
                 </div>
             )}
         </>

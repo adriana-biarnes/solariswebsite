@@ -9,7 +9,7 @@ const MobileCard = ({ caseStudy, displayMobileContent }) => {
     if (displayMobileContent) {
         return (
                 <div className="flex flex-col gap-4">
-                    <div className="rounded-lg bg-white p-4 border border-solid border-orangeWin items-center justify-center">
+                    <div className="rounded-lg bg-white p-4 border border-solid border-orangeWin items-center justify-center ">
                         {caseStudy.description}
                     </div>
                     <div className="flex flex-col gap-3 rounded-lg bg-white px-4 border-solid border border-orangeWin p-4 justify-center items-center">
@@ -46,8 +46,8 @@ const Card = ({ caseStudy, index }) => {
     };
 
     return (
-        <div key={index} className="flex flex-col gap-6 w-full bg-mobileBento md:bg-bento rounded-3xl py-14 px-16 shadow">
-            <h2 className="text-xl text-orangeWin border-b-2 border-orangeWin pb-6">{caseStudy.title}</h2>
+        <div key={index} className="flex flex-col gap-6 w-full bg-mobileBento md:bg-bento rounded-3xl py-14 px-16 shadow font-opensans">
+            <h2 className="text-xl text-orangeWin border-b-2 border-orangeWin pb-6 ">{caseStudy.title}</h2>
 
             {/* Mobile Version */}
             <MobileCard caseStudy={caseStudy} displayMobileContent={displayMobileContent}/>
@@ -99,9 +99,9 @@ const CaseStudies = () => {
     return(
         <div className="flex flex-col justify-center items-center h-full">
             <BlueNavBar />
-            <div className="flex p-4 md:pb-12 md:px-12 lg:pb-20 lg:px-20">
+            <div className="flex p-4 md:pb-12 md:px-12 lg:pb-26 lg:px-20">
                 <div className="flex flex-col text-primary gap-6">
-                    <h1 className="text-2xl">Case Studies</h1>
+                    <h1 className="text-2xl font-lato font-semi-bold">Case Studies</h1>
                     {CASE_STUDIES_CONTENT.map((caseStudy, index) => (
                         <Card key={index} caseStudy={caseStudy} />
                     ))}
