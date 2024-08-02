@@ -33,7 +33,7 @@ const Hero = () => {
             <img
               src={logoSolaris}
               alt="Solaris"
-              className="pr-48 w-[335px] h-[100px] xs:w-[362.25px] xs:h-[189px] sepia-0 ml-6 xxs:ml-0 xs:ml-6 "
+              className="md:pr-20 xxs:pr-48 w-[365px] h-[100px] xs:w-[362.25px] xs:h-[189px] sepia-0 ml-6 xxs:ml-0 xs:ml-6 xs:pr-20 "
             />
               <h1 className={`${styles.heading1} xs:pl-8`}>
                 On your way to success with consultants you can trust
@@ -44,7 +44,7 @@ const Hero = () => {
               </h2>
             
           </div>
-          <div className="flex flex-col xxs:ml-0 xs:w-[460px] w-[300px] gap-2 ml-8 md:ml-16 xs:ml-8 ">
+          <div className="flex flex-col xxs:ml-0 xs:w-[460px] w-[300px] gap-2 ml-8 md:ml-22 xs:ml-8 ">
               <button
                 className="xs:w-[230px] h-[48px] w-[168px] bg-secondary hover:bg-hoverSecondary rounded-xl"
                 onClick={() => scrollToSection("meet")}

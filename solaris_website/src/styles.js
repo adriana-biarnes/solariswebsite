@@ -2,12 +2,12 @@ const styles = {
   boxWidth: "w-full",
   wrapper: "xl:max-w-[1280px]",
   heading1:
-    "text-white font-lato xs:text-[40px] text-[26px] font-extrabold xs:leading-[46px] leading-8 xs:w-[460px] w-[300px]",
+    "text-white font-Lato xs:text-[40px] text-[26px] font-extrabold xs:leading-[46px] leading-8 xs:w-[460px] w-[300px]",
   heading2:
     "text-white font-opensans text-xl xs:text-[26px] text-[20px] leading-6 xs:leading-[29.9px] xs:w-full  w-[300px]",
   buttonText: "font-opensans font-bold text-[1rem]",
   paragraph: "font-opensans font-semibold text-primary text-[1.125rem] leading-8",
-  heading3: "font-lato font-black text-[1.375rem] leading-8 text-primary",
+  heading3: "font-Lato font-black text-[1.375rem] leading-8 text-primary",
   bodyText: "font-opensans font-medium text-[1.125rem] leading-8 text-primary",
   listText: "font-opensans font-regular text-[1.125rem] text-primary",
   cardText: "font-opensans font-semibold text-[1rem] leading-7",

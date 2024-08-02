@@ -31,7 +31,7 @@ module.exports = {
         mobileBento: 'linear-gradient(108deg, rgba(245, 122, 0, 0.08) 7.84%, rgba(249, 171, 93, 0.10) 53.77%, rgba(255, 255, 255, 0.80) 97.89%)',
       },
       fontFamily: {
-        lato: ["Lato", "sans-serif"],
+        Lato: ["Lato", "sans-serif"],
         opensans: ["Open Sans", "sans-serif"],
       },
     },
