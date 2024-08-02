@@ -47,17 +47,17 @@ const Block = ({ image, title, description }) => {
     return (
         <div className="flex flex-col lg:flex-row items-center justify-between lg:py-10 lg:gap-6 gap-8 lg:h-62">
             <div className="flex flex-col w-1/3 items-center gap-8">
-                <img className="w-24 p-0.1" src={image} alt={title} />
-                <h2 className="text-center font-bold text-xl font-lato">{title}</h2>
+                <img className="w-[90px] h-[90px] p-0.1" src={image} alt={title} />
+                <h2 className="text-center font-bold text-[22px] font-Lato">{title}</h2>
             </div>
-            <p className="lg:w-2/3 w-full text-xl font-opensans">{description}</p>
+            <p className="lg:w-2/3 w-[20.625rem] text-[18px] font-opensans">{description}</p>
         </div>
     );
 };
 
 const DescriptionBlocks = () => {
     return(
-        <div className="flex flex-col gap-24 mt-10 mb-10 lg:mb-0">
+        <div className="flex flex-col gap-24 mt-10 mb-10 lg:mb-0 lg:my-[80px]">
            {DESCRIPTION_BLOCKS.map((block) => <Block key={block.image} image={block.image} title={block.title} description={block.description} />)}
         </div>
     )
