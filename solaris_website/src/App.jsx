@@ -50,7 +50,7 @@ const App = () => {
       </div>
 
       <div
-        className={`md:flex md:justify-center sm:h-[1000px] md:items-start sm:px-16 px-6 bg-cover bg-center`}
+        className={`md:flex md:justify-center sm:h-[1000px] md:items-start lg:items-center sm:px-16 px-6 bg-cover bg-center`}
         style={{
           backgroundImage: isSmallScreen ? 'none' : `url(${formTreeV2})`,
           backgroundColor: isSmallScreen ? 'white' : 'transparent',

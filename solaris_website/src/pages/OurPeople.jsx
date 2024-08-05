@@ -24,7 +24,7 @@ const Card = ({face, back}) => {
                         <img src={face} alt="" className="w-full h-full  min-h-[460px]" />
                     </div>
                     <div className="absolute rotate-y-180 w-full h-full backface-hidden  bg-gray-100 rounded-xl">
-                        <img src={back} alt="" className="w-full h-full min-h-[460px] rounded-xl" />
+                        <img src={back} alt="" className="w-full h-full min-h-[480px] rounded-xl" />
                     </div>
             </div>
         </div>          
@@ -34,9 +34,9 @@ const OurPeople = () =>{
     return(
         <div className="flex flex-col min-h-screen">
             <BlueNavBar />
-            <div className="flex flex-col px-16 py-12 gap-6 lg:mx-18 flex-grow font-opensans font-semibold mb-32">
-                <div className="flex flex-col text-primary gap-10 text-justify px-2">
-                    <h2 className="font-bold text-3xl">Our People</h2>
+            <div className="flex flex-col px-16 md:py-12 xxs-p-8 gap-6 lg:mx-18 flex-grow font-opensans font-semibold mb-32">
+                <div className="flex flex-col text-primary gap-10 text-justify px-2 text-[18px]">
+                    <h2 className="font-bold text-[32px]  font-semibold font-Lato">Our People</h2>
                     <p>The core of Solaris is our people. We have worked on projects across the investments industry and have met some truly exceptional people, many of whom have chosen to join Solaris. We offer them the opportunity to apply themselves to complex, challenging change programmes, and to work with like-minded people who enjoy being part of our successful team.</p>
                     <p>Solaris is a blend of permanent employees and associates, all of whom share our values of client service, integrity and focus on delivering successful outcomes for our clients. We choose our people based on their experience – you can expect that Solaris consultants will always have demonstrable direct, relevant and recent experience in their fields of expertise.</p>
                     <p className="bg-gray-100 px-4 py-8 rounded-2xl">Interested in joining Solaris? We would be happy to hear from you. Contact us <Link to="/#contactUs" className="text-orangeWin">here</Link>.</p>

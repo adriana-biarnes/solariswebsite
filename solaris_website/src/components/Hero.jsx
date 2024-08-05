@@ -28,7 +28,7 @@ const Hero = () => {
         </div>
         {/* Rectángulo semitransparente solo en desktop */}
 
-        <div className="flex flex-col bg-black bg-opacity-40 absolute left-0 xxs:w-full md:w-3/5 lg:w-5/12 h-full justify-center gap-8 px-6">
+        <div className="flex flex-col bg-black bg-opacity-40 absolute left-0 xxs:w-full md:w-3/6 lg:w-5/12 h-full justify-center gap-8 px-6">
           <div className="flex flex-col gap-8 md:w-[460px] w-[335px] justify-center">
             <img
               src={logoSolaris}
