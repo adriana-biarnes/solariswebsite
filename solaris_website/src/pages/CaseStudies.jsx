@@ -17,10 +17,10 @@ const MobileCard = ({ caseStudy, displayMobileContent }) => {
                             <p key={index} className="text-md"><b>{` ${value}`}</b></p>
                         ))}
                     </div>
-                    <div className="flex flex-col gap-6 text-justify bg-white p-6 border border-solid border-orangeWin rounded-lg">
+                    <div className="flex flex-col gap-6  bg-white p-6 border border-solid border-orangeWin rounded-lg">
                         <h3 className="font-semibold text-xl mt-2">Solaris Value Delivered:</h3>
                         {caseStudy.value.map((value, index) => (
-                            <div key={index} className="flex gap-6 items-center">
+                            <div key={index} className="flex gap-6">
                                 <img className="w-8 h-8" src={point} alt={value} />
                                 <h3 className="text-lg">{value}</h3>
                             </div>
@@ -81,7 +81,7 @@ const Card = ({ caseStudy, index }) => {
                 </div>
                     
                 {/* Value Section */}
-                <div className="flex flex-col gap-6 text-justify bg-white p-6 border border-solid border-orangeWin rounded-lg">
+                <div className="flex flex-col gap-6 bg-white p-6 border border-solid border-orangeWin rounded-lg">
                     <h3 className="font-semibold text-xl mt-2">Solaris Value Delivered:</h3>
                         {caseStudy.value.map((value, index) => (
                             <div key={index} className="flex gap-6 items-center">
@@ -99,9 +99,9 @@ const CaseStudies = () => {
     return(
         <div className="flex flex-col justify-center items-center h-full">
             <BlueNavBar />
-            <div className="flex p-[30px] md:pb-12 md:px-12 lg:pb-26 lg:px-20">
+            <div className="flex xxs:p-[30px] md:p-0 md:pb-12 md:px-12 lg:pb-26 lg:px-20 lg:mb-[150px]">
                 <div className="flex flex-col text-primary gap-6">
-                    <h1 className="text-[32px] font-Lato font-semi-bold my-[80px]">Case Studies</h1>
+                    <h1 className="text-[32px] font-Lato font-semi-bold mt-[30px] mb-[30px]">Case Studies</h1>
                     {CASE_STUDIES_CONTENT.map((caseStudy, index) => (
                         <Card key={index} caseStudy={caseStudy} />
                     ))}

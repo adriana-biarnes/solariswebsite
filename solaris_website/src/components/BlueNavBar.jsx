@@ -8,7 +8,7 @@ import CloseIcon from '/close.png';
 const NAV_LINKS = [
   { id: '/', title: 'Meet Solaris' },
   { id: '/whatWeDo', title: 'What we do' },
-  { id: '/OurPeople', title: 'Our People' },
+  { id: '/OurPeople', title: 'Our people' },
   { id: '/caseStudies', title: 'Case Studies' },
   { id: '/#contactUs', title: 'Contact us' },
 ];
@@ -19,10 +19,10 @@ const Navigation = ({ isMenuOpen }) =>
       key={link.id}
       to={link.id}
       className={`
-        font-opensans
-        font-[16px]
+        font-roboto 
+        font-semi-bold 
         ${isMenuOpen ? 'hover:text-primary' : ''}
-        text-lg 
+        text-[16px] 
         px-8 
         h-10 
         leading-5`}
@@ -41,13 +41,20 @@ const BlueNavBar = () => {
   return (
     <>
       <div
-        className={`flex flex-row lg:justify-end lg:bg-primary w-full h-28 font-opensans text-[16px] justify-between items-center px-[30px] ${isMenuOpen ? 'bg-primary' : ''}`}
+        className={`flex flex-row lg:bg-primary w-full h-28 justify-between items-center px-[62px] ${isMenuOpen ? 'bg-primary' : ''}`}
       >
         <img
-          src={isMenuOpen ? Logo : LogoBlue}
+          src={LogoBlue}
           className={`
             h-[70px]
-            ${isMenuOpen ? 'block' : 'block lg:hidden'}`}
+            ${isMenuOpen ? 'hidden' : 'block lg:hidden'}`}
+          alt="Logo"
+        />
+       <img
+          src={Logo}
+          className={`
+            h-[70px]
+            ${isMenuOpen ? 'block' : 'hidden lg:block'}`}
           alt="Logo"
         />
         <div className="lg:items-center text-white space-x-[32px] lg:visible lg:gap-8 invisible hidden lg:block">
@@ -57,11 +64,11 @@ const BlueNavBar = () => {
           src={isMenuOpen ? CloseIcon : BlueBurger}
           className="h-[50px] lg:hidden block"
           alt="Logo"
-          onClick={toggleMenu}  
+          onClick={toggleMenu}
         />
       </div>
       {isMenuOpen && (
-        <div className="flex flex-col items-start bg-primary w-full lg:hidden py-6 px-20 text-white gap-3 last:text-orangeWin">
+        <div className="flex flex-col items-start bg-primary w-full lg:hidden py-2 px-20 text-white gap-3 last:text-orangeWin">
           <Navigation />
         </div>
       )}
