@@ -10,7 +10,6 @@ import BlueFooter from "../components/BlueFooter";
 import { useState } from "react";
 import { Link } from "react-router-dom"
 
-
 const Card = ({face, back}) => {
     const [isFaceVisible, setIsFaceVisible] = useState(true);
     return(
@@ -34,9 +33,9 @@ const OurPeople = () =>{
     return(
         <div className="flex flex-col min-h-screen">
             <BlueNavBar />
-            <div className="flex flex-col px-16 md:py-12 xxs-p-8 gap-6 lg:mx-18 flex-grow font-opensans font-semibold mb-32">
+            <div className="flex flex-col px-8 py-8 md:py-26 md:px-26 gap-6 lg:mx-18 flex-grow font-opensans font-medium mb-32">
                 <div className="flex flex-col text-primary gap-10 text-justify px-2 text-[18px]">
-                    <h2 className="font-bold text-[32px]  font-semibold font-Lato">Our People</h2>
+                    <h1 className="text-[32px] font-Lato font-semi-bold ">Our People</h1>
                     <p>The core of Solaris is our people. We have worked on projects across the investments industry and have met some truly exceptional people, many of whom have chosen to join Solaris. We offer them the opportunity to apply themselves to complex, challenging change programmes, and to work with like-minded people who enjoy being part of our successful team.</p>
                     <p>Solaris is a blend of permanent employees and associates, all of whom share our values of client service, integrity and focus on delivering successful outcomes for our clients. We choose our people based on their experience – you can expect that Solaris consultants will always have demonstrable direct, relevant and recent experience in their fields of expertise.</p>
                     <p className="bg-gray-100 px-4 py-8 rounded-2xl">Interested in joining Solaris? We would be happy to hear from you. Contact us <Link to="/#contactUs" className="text-orangeWin">here</Link>.</p>

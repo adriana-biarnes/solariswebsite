@@ -50,7 +50,7 @@ const Block = ({ image, title, description }) => {
                 <img className="w-[90px] h-[90px] p-0.1" src={image} alt={title} />
                 <h2 className="text-center font-bold text-[22px] font-Lato">{title}</h2>
             </div>
-            <p className="lg:w-2/3 w-[20.625rem] text-[18px] font-opensans">{description}</p>
+            <p className="lg:w-2/3 w-[20.625rem] text-[18px] text-center font-opensans">{description}</p>
         </div>
     );
 };
