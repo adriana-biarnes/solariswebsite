@@ -53,7 +53,7 @@ const Card = ({ caseStudy, index }) => {
             <MobileCard caseStudy={caseStudy} displayMobileContent={displayMobileContent}/>
             <button 
                 type="button" 
-                className="text-white bg-primary py-3 px-6 w-44 h-12 rounded-lg text-md hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-opacity-50 md:hidden"
+                className="text-white bg-primary py-3 px-6 w-44 h-12 rounded-lg text-md  focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-opacity-50 md:hidden"
                 onClick={toggleMobileContent}
             >
                 {displayMobileContent ? 'Back to list' : 'View case study'}
@@ -101,7 +101,7 @@ const CaseStudies = () => {
             <BlueNavBar />
             <div className="flex xxs:p-[30px] md:p-0 md:pb-12 md:px-12 lg:pb-26 lg:px-20 lg:mb-[150px]">
                 <div className="flex flex-col text-primary gap-6">
-                    <h1 className="text-[32px] font-Lato font-semi-bold mt-[30px] mb-[30px]">Case Studies</h1>
+                    <h1 className="text-[32px] font-Lato font-semi-bold lg:mt-[100px] mb-[30px]">Case Studies</h1>
                     {CASE_STUDIES_CONTENT.map((caseStudy, index) => (
                         <Card key={index} caseStudy={caseStudy} />
                     ))}

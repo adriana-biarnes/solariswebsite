@@ -5,8 +5,6 @@ import Navbar from "./Navbar";
 import styles from "../styles";
 import { scrollToSection } from "../constants/utils";
 
-
-
 const Hero = () => {
   return (
     <div className="relative h-screen ">
@@ -34,7 +32,7 @@ const Hero = () => {
               src={logoSolaris}
               alt="Solaris"
               className="md:pr-20 xxs:pr-48 w-[365px] h-[100px] xs:w-[362.25px] xs:h-[189px] sepia-0 ml-6 xxs:ml-0 xs:ml-6 xs:pr-20 "
-            />
+            />      
               <h1 className={`${styles.heading1} xs:pl-8`}>
                 On your way to success with consultants you can trust
               </h1>
