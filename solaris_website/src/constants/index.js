@@ -138,10 +138,10 @@ export const CASE_STUDIES_CONTENT = [
       'Fast-tracked analysis by using Solaris Aladdin specialist domain knowledge across investment processes and asset classes',
     ],
     mobile: [
-      'Investments could data platform',
-      'Startegy, design and business case',
-      'Analysis, build an test',
-      'Investments precess redesign ad embed in BAU',
+      'Investments cloud data platform',
+      'Strategy, design and business case',
+      'Analysis, build and test',
+      'Leveraging Aladdin, ADC and Snowflake',
     ],
   },
   {
@@ -168,7 +168,7 @@ export const CASE_STUDIES_CONTENT = [
     description: 'We worked with a large UK asset manager to implement Aladdin across their investment platform. Solaris supported the duration of the programme, taking key roles in the overall leadership team as well as workstream leads and consultants across middle office, dealing, front office investment teams',
     value: [
       'Programme was delivered ahead of time and under budget (for which, the exco attribute to Solaris leadership and team quality)',
-      'Leveraged Solaris\'s experience to implement best practice processes across all investment desks',
+      'Leveraged Solaris\'s experience to implement best practices processes across all investment desks',
       'Transformed the clients\' investment data architecture using Snowflake and ADC',
       'Enhanced the control environment, working with 3LOD teams to validate implemented tools and processes',
       'Went over and above to embed new change management best practices and support the client in their transition to BAU'
@@ -211,7 +211,7 @@ export const CASE_STUDIES_CONTENT = [
     mobile: [
       'Middle office outsourced on Aladdin',
       'Retained model design',
-      'Operations, migration and embed',
+      'Operations, migration and embed in BAU',
       'Service provider best practice',
     ],
     
@@ -248,7 +248,7 @@ export const CASE_STUDIES_CONTENT = [
       'Operations backfill',
       'Multi-region locations',
       'In-sourced middle office',
-      'Mutiple middle office functoins',
+      'Mutiple middle office functions',
     ],
   },
 ];

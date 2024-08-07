@@ -20,9 +20,9 @@ const Card = ({face, back}) => {
             <div 
                 className={`relative preserve-3d ${!isFaceVisible ? 'rotate-y-180' : ''} w-full h-full duration-1000`}>
                     <div className="absolute w-full h-full backface-hidden">
-                        <img src={face} alt="" className="w-full h-full  min-h-[460px]" />
+                        <img src={face} alt="" className="w-full h-full rounded-3xl min-h-[460px]" />
                     </div>
-                    <div className="absolute rotate-y-180 w-full h-full backface-hidden  bg-gray-100 rounded-xl">
+                    <div className="absolute rotate-y-180 w-full h-full backface-hidden rounded-xl">
                         <img src={back} alt="" className="w-full h-full min-h-[480px] rounded-xl" />
                     </div>
             </div>
