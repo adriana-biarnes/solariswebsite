@@ -66,7 +66,7 @@ const Navbar = () => {
                     onClick={toggleMenu}
                 />
             </div>
-            <div className="flex flex-col place-content-evenly h-full py-6 px-20 h-72">
+            <div className="flex flex-col place-content-evenly h-full py-6 px-7 h-72">
               {navLinks.map((nav) => (
                 <Link
                   key={nav.id}
