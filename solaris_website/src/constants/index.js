@@ -204,7 +204,7 @@ export const CASE_STUDIES_CONTENT = [
     description: 'We worked with a large UK asset manager to implement Aladdin Provider with their middle office service provider. Solaris worked with an Asset Manager to deliver a new middle office operating model with their Global Service Provider, using the Aladdin Provider approach. This included a middle office migration, changes to the retained oversight team and implementation of technical interfaces.',
     value: [
       'Solaris led the project to a successful go-live, with no critical migration incidents ',
-      'Solaris’s best-practises were leveraged in the design and implementation of new quality and performance metrics, as part of the wider supplier oversight model',
+      'Solaris\' best-practices were leveraged in the design and implementation of new quality and performance metrics, as part of the wider supplier oversight model',
       'Worked with the client to implement a new risk and controls framework, working with the client’s operational risk teams',
       'Supported the client’s service provider with Aladdin best practice; this model is now being promoted at their preferred Global Aladdin operating model',
     ],

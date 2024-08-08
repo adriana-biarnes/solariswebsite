@@ -40,7 +40,7 @@ module.exports = {
       xs:"458px",
       sm: "768px",
       shouldDisplayWhiteNavBar: "806px",
-      md: "1040px",
+      md: "1024px",
       lg: "1270px",
       xl: "1700px",
     },
