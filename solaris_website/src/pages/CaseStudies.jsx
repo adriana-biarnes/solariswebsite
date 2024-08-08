@@ -101,7 +101,7 @@ const CaseStudies = () => {
             <BlueNavBar />
             <div className="flex xxs:p-[30px] md:p-0 md:pb-12 md:px-12 lg:pb-26 lg:px-20 lg:mb-[150px]">
                 <div className="flex flex-col text-primary gap-6">
-                    <h1 className="text-[32px] font-Lato font-semi-bold lg:mt-[100px] mb-[30px]">Case Studies</h1>
+                    <h1 className="text-[32px] font-Lato font-semi-bold md:mt-[100px] mb-[30px]">Case Studies</h1>
                     {CASE_STUDIES_CONTENT.map((caseStudy, index) => (
                         <Card key={index} caseStudy={caseStudy} />
                     ))}

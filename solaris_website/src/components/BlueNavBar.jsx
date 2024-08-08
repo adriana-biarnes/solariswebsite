@@ -41,36 +41,36 @@ const BlueNavBar = () => {
   return (
     <>
       <div
-        className={`flex flex-row lg:bg-primary w-full h-28 justify-between items-center pl-8 pr-[62px] ${isMenuOpen ? 'bg-primary' : ''}`}
+        className={`flex flex-row md:bg-primary w-full h-28 justify-between items-center pl-8 pr-[62px] ${isMenuOpen ? 'bg-primary' : ''}`}
       >
           <Link to="/">
           <img
           src={LogoBlue}
           className={`
             h-[70px]
-            ${isMenuOpen ? 'hidden' : 'block lg:hidden'}`}
+            ${isMenuOpen ? 'hidden' : 'block md:hidden'}`}
           alt="Logo"
         />   
        <img
           src={Logo}
           className={`
             h-[70px]
-            ${isMenuOpen ? 'block' : 'hidden lg:block'}`}
+            ${isMenuOpen ? 'block' : 'hidden md:block'}`}
           alt="Logo"
         />
         </Link>
-        <div className="lg:items-center text-white space-x-[32px] lg:visible lg:gap-8 invisible hidden lg:block">
+        <div className="md:items-center text-white  md:visible md:gap-8 invisible hidden md:block">
           <Navigation />
         </div>
         <img
           src={isMenuOpen ? CloseIcon : BlueBurger}
-          className="h-[35px] lg:hidden block"
+          className="h-[35px] md:hidden block"
           alt="Logo"
           onClick={toggleMenu}
         />
       </div>
       {isMenuOpen && (
-        <div className="flex flex-col items-start bg-primary w-full lg:hidden py-6 px-20 text-white gap-3 last:text-orangeWin">
+        <div className="flex flex-col items-start bg-primary w-full md:hidden py-6 px-20 text-white gap-3 last:text-orangeWin">
           <Navigation />
         </div>
       )}

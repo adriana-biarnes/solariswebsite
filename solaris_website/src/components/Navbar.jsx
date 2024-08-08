@@ -20,7 +20,7 @@ const Navbar = () => {
   }, [])
 
   return (
-    <nav className="absolute z-10 top-0 left-0 w-full flex justify-end p-10 pr-24 md:pr-16 lg:pr-26 font-opensans">
+    <nav className="absolute z-10 top-0 left-0 w-full flex justify-end p-10 pr-24 md:pr-14 lg:pr-26 font-opensans">
       {/* tablet version */}
       <div className="gap-8 hidden md:flex justify-evenly">
         {navLinks.map((nav) => (
