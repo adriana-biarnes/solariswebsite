@@ -9,16 +9,16 @@ const Hero = () => {
   return (
     <div>
       <div
-        className="absolute inset-0 bg-cover bg-center lg:hidden md:hidden sepia-0 min-h-screen"
+        className="absolute inset-0 bg-cover bg-center lg:hidden md:hidden sepia-0 min-h-[620px]"
         style={{ backgroundImage: `url(${mobileBackgroundImage})` }}
       />
       <div
-        className="hidden absolute inset-0 bg-cover bg-center lg:block md:block sepia-0 min-h-screen"
+        className="hidden absolute inset-0 bg-cover bg-center lg:block md:block sepia-0 min-h-[620px]"
         style={{ backgroundImage: `url(${desktopBackgroundImage})` }}
       />
 
       {/* Content Hero */}
-      <div className="relative z-10 bg-opacity-32 lg:bg-inherit flex justify-center h-screen text-white sepia-0 min-h-screen">
+      <div className="relative z-10 bg-opacity-32 lg:bg-inherit flex justify-center h-screen text-white sepia-0 min-h-[620px]">
         <div className={`${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
             <Navbar />
