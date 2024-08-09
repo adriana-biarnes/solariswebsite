@@ -115,7 +115,7 @@ export const CASE_STUDIES_CONTENT = [
     data: [
       {
         label: 'AUM',
-        value: '£100bn+',
+        value: '£100bn+ AUM',
       },
       {
         label: 'Project Duration',
@@ -127,10 +127,10 @@ export const CASE_STUDIES_CONTENT = [
       },
       {
         label: 'Solaris team size',
-        value: '2-4',
+        value: '2-4 team size',
       },
     ],
-    description: 'We worked with a large insurance asset owner in the UK to design and implement their strategic data platform. Solaris worked with the client to develop a strategy, design and business case for their asset owner investments data platform and strategic asset allocation solution, leveraging Aladdin, Aladdin Data Cloud (ADC) and snowflake. Solaris is now supporting the client implementation.',
+    description: 'We worked with a large insurance asset owner in Europe to design and implement their strategic data platform. Solaris worked with the client to develop a strategy, design and business case for their asset owner investments data platform and strategic asset allocation solution, leveraging Aladdin, Aladdin Data Cloud (ADC) and snowflake. Solaris is now supporting the client implementation.',
     value: [
       'Provided programme leadership and trusted advice to the client, and supported them with wider senior stakeholder management ',
       'Leveraged Solaris benchmarks and experience to create a robust business case',
@@ -150,7 +150,7 @@ export const CASE_STUDIES_CONTENT = [
     data: [
       {
         label: 'AUM',
-        value: '£150bn+',
+        value: '£150bn+ AUM',
       },
       {
         label: 'Project Duration',
@@ -162,7 +162,7 @@ export const CASE_STUDIES_CONTENT = [
       },
       {
         label: 'Solaris team size',
-        value: '6-8',
+        value: '6-8 team size',
       },
     ],
     description: 'We worked with a large UK asset manager to implement Aladdin across their investment platform. Solaris supported the duration of the programme, taking key roles in the overall leadership team as well as workstream leads and consultants across middle office, dealing, front office investment teams',
@@ -186,7 +186,7 @@ export const CASE_STUDIES_CONTENT = [
     data: [
       {
         label: 'AUM',
-        value: '£150bn+',
+        value: '£150bn+ AUM',
       },
       {
         label: 'Project Duration',
@@ -198,7 +198,7 @@ export const CASE_STUDIES_CONTENT = [
       },
       {
         label: 'Solaris team size',
-        value: '6',
+        value: '6 team size',
       },
     ],
     description: 'We worked with a large UK asset manager to implement Aladdin Provider with their middle office service provider. Solaris worked with an Asset Manager to deliver a new middle office operating model with their Global Service Provider, using the Aladdin Provider approach. This included a middle office migration, changes to the retained oversight team and implementation of technical interfaces.',
@@ -222,7 +222,7 @@ export const CASE_STUDIES_CONTENT = [
     data: [
       {
         label: 'AUM',
-        value: '£250bn+',
+        value: '£250bn+ AUM',
       },
       {
         label: 'Project Duration',
@@ -234,7 +234,7 @@ export const CASE_STUDIES_CONTENT = [
       },
       {
         label: 'Solaris team size',
-        value: '2-4',
+        value: '2-4 team size',
       },
     ],
     description: 'We supplied operations backfill resources as part of our wider support of a large-scale global Aladdin programme. Solaris supplied this Global Asset Manager with middle office operators, who are skilled and experienced with Aladdin processes and tools. We supported multiple regions and middle office competencies such as derivatives, data management, reconciliations and trade operations.',

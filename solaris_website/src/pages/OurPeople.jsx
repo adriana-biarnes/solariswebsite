@@ -40,7 +40,7 @@ const OurPeople = () =>{
                     <p>Solaris is a blend of permanent employees and associates, all of whom share our values of client service, integrity and focus on delivering successful outcomes for our clients. We choose our people based on their experience – you can expect that Solaris consultants will always have demonstrable direct, relevant and recent experience in their fields of expertise.</p>
                     <p className="bg-gray-100 px-4 py-8 rounded-2xl">Interested in joining Solaris? We would be happy to hear from you. Contact us <Link to="/#contactUs" className="text-orangeWin">here</Link>.</p>
                 </div>
-                <h3 className="text-orangeWin font-bold text-xl p-6">The leadership team</h3>
+                <h3 className="text-orangeWin font-bold text-xl p-6">Our Leadership Team</h3>
                 <div className="flex flex-col md:flex-row md:justify-between items-center gap-20 md:gap-2 sm:pb-6 ">
                     <Card face={StephenFace} back={StephenBack}/>
                     <Card face={MathewFace} back={MathewBack}/>
