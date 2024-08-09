@@ -8,7 +8,7 @@ const DESCRIPTION_BLOCKS = [
     {
         image: "Optimisation.png",
         title: "Aladdin implementation and optimization",
-        description: "We believe we are the leading Aladdin consulting team in the UK, having successfully led some of the largest and most complex implementations. Our specialist team can help you get the most out of the toolset, including new modules such as ADC and Aladdin Accounting.",
+        description: "We believe we are the leading Aladdin consulting team in Europe, having successfully led some of the largest and most complex implementations. Our specialist team can help you get the most out of the toolset, including new modules such as ADC and Aladdin Accounting.",
     },
     {
         image: "Strategy.png",
