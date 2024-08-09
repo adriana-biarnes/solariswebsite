@@ -7,10 +7,10 @@ import CloseIcon from '/close.png';
 
 const NAV_LINKS = [
   { id: '/', title: 'Meet Solaris' },
-  { id: '/whatWeDo', title: 'What we do' },
+  { id: '/whatWeDo', title: 'What We Do' },
   { id: '/OurPeople', title: 'Our People' },
   { id: '/caseStudies', title: 'Case Studies' },
-  { id: '/#contactUs', title: 'Contact us' },
+  { id: '/#contactUs', title: 'Contact Us' },
 ];
 
 const Navigation = ({ isMenuOpen }) =>

@@ -18,7 +18,7 @@ const DESCRIPTION_BLOCKS = [
     {
         image: "Model.png",
         title: "Operating model design, selection and implementation",
-        description: "We support clients to design their target business model leveraging technology and strategic partnerships. Our team has strong experience leading systems and outsourcing selections, and developing business cases that are board-level ready.",
+        description: "We support clients to design their target business model, leveraging, technology and strategic partnerships. Our team has strong experience leading systems and outsourcing selections, and developing business cases that are board-level ready.",
     },
     {
         image: "Delivery.png",
