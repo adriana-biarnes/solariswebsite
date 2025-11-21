@@ -10,7 +10,7 @@ const BlueFooter = () => {
             >
                 Privacy Policy
             </a>
-            <p>@ 2024 Solaris Consultants</p>
+            <p>@ 2025 Solaris Consultants</p>
             <p>All rights reserved</p>
         </div>
     );

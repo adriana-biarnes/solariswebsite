@@ -1,4 +1,8 @@
 /* eslint-disable react/prop-types */
+import DarrenFace from "/DarrenFace.jpg"
+import DarrenBack from "/DarrenBack.jpg"
+import RichardFace from "/RichardFace.jpg"
+import RichardBack from "/RichardBack.jpg"
 import StephenFace from "/Stephen-face.png"
 import MathewFace from "/Mathew-face.png"
 import SarahFace from "/Sarah-face.png"
@@ -45,6 +49,8 @@ const OurPeople = () =>{
                     <Card face={StephenFace} back={StephenBack}/>
                     <Card face={MathewFace} back={MathewBack}/>
                     <Card face={SarahFace} back={SarahBack}/>
+                    <Card face={DarrenFace} back={DarrenBack}/>
+                    <Card face={RichardFace} back={RichardBack}/>
                 </div>
             </div>
             <BlueFooter/>
