@@ -83,8 +83,8 @@ const OurPeople = () => {
           <Card face={SarahFace} back={SarahBack} className="md:col-start-3" />
 
           {/* Row 2 (aligned under columns 2 & 3) */}
-          <Card face={DarrenFace} back={DarrenBack} className="md:col-start-2" />
           <Card face={RichardFace} back={RichardBack} className="md:col-start-3" />
+          <Card face={DarrenFace} back={DarrenBack} className="md:col-start-2" />
         </div>
       </div>
       <BlueFooter />
